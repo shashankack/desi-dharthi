@@ -25,7 +25,7 @@ const Carousel = ({ data }) => {
     tl.fromTo(
       contentRefs.current[currentIndex]?.querySelector(".description"),
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1, ease: "power2.out" }
+      { y: 0, opacity: 1, duration: 1, ease: "power2.out" }, "+=0.4"
     ).fromTo(
       contentRefs.current[currentIndex]?.querySelector(".title"),
       { y: 50, opacity: 0 },
