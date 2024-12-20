@@ -1,0 +1,25 @@
+.product-section {
+    height: 100vh;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.container-title {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+    font-weight: 800;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+}
